@@ -122,7 +122,7 @@ public class WebServer {
      * @param requestUri
      * @return 
      */
-    private static String extractName(URI requestUri) {
+    public static String extractName(URI requestUri) {
         String query = requestUri.getQuery(); // "name=John"
         String name = "Mundo";
         if (query != null && query.startsWith("name=")) {
@@ -144,7 +144,7 @@ public class WebServer {
         String response = "";
         byte[] file = FileToBytes(path);
         if(extension.equals("html") || extension.equals("css") || extension.equals("js")){
-                String fileToString = FileToString(path);
+            String fileToString = FileToString(path);
             response = BuildPetition(extension, response, fileToString);
             out.write(response);
         }else{

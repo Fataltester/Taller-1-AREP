@@ -19,5 +19,3 @@ Lo que nos llevará a nuestra aplicación web
 Estamos ante una arquitectura cliente-servidor, a nivel del carpetado del proyecto tenemos la siguiente estructura
 <img width="492" height="370" alt="image" src="https://github.com/user-attachments/assets/16e613e0-56d0-46b2-8048-2917ea00e06d" />
 
-
-
